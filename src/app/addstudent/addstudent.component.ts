@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-addstudent',
@@ -6,7 +6,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./addstudent.component.css']
 })
 export class AddstudentComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {

@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   studentCollection: Array<object> = [];
   studentRecord: object;
-
   studNo: number;
   studFName: string;
   studLName: string;
